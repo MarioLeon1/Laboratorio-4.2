@@ -47,7 +47,8 @@ Procedemos a crear un nuevo nodo que actuará como agente:
 
 Configuramos los detalles específicos del agente Jenkins:
 
-![Creando nuevo agente](https://github.com/user-attachments/assets/d8b7e0cf-c99b-4bd4-95a0-559d58a980ac)
+![Nuevo agente](https://github.com/user-attachments/assets/3b3a72f9-714d-4bce-b467-18fe6554a6b0)
+
 
 
 ### 3.3 Configuración de Credenciales
