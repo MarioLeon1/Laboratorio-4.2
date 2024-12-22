@@ -33,7 +33,7 @@ Después del primer acceso, Jenkins nos presenta una pantalla de bienvenida dond
 
 Para establecer un entorno distribuido, necesitamos configurar los nodos y agentes de Jenkins. Accedemos a la sección de nodos:
 
-![Pantalla de nodes](https://github.com/user-attachments/assets/15acd7c4-073f-4537-8b1d-d6160b3fed62)
+![Pantalla de nodes](https://github.com/user-attachments/assets/d5903d94-eda3-4945-a662-b4312304021f)
 
 
 ### 3.1 Creación de un Nuevo Nodo
@@ -47,26 +47,27 @@ Procedemos a crear un nuevo nodo que actuará como agente:
 
 Configuramos los detalles específicos del agente Jenkins:
 
-![Creando nuevo agente](https://github.com/user-attachments/assets/223602a1-6cb9-4d40-9bb1-68c1ba1630f0)
+![Creando nuevo agente](https://github.com/user-attachments/assets/d8b7e0cf-c99b-4bd4-95a0-559d58a980ac)
 
 
 ### 3.3 Configuración de Credenciales
 
 Para la comunicación segura entre el master y el agente, necesitamos configurar las credenciales SSH:
 
-![Credenciales agente Jenkins](https://github.com/user-attachments/assets/37fccbbe-5dc7-4607-af86-723d76341951)
+![Credenciales Jenkins](https://github.com/user-attachments/assets/ba19ced3-b366-4ab7-a907-9b4ecacfc252)
 
 
 ### 3.4 Generación de Claves RSA
 
 Generamos un nuevo par de claves RSA para la autenticación:
 
-![Generando claves RSA](https://github.com/user-attachments/assets/35b126f2-b701-4a3f-8fbe-423be3789ae9)
+![Generación RSA](https://github.com/user-attachments/assets/c6db3248-5f47-4a0e-a6a9-05357d996e2b)
+
 
 
 Verificamos la creación exitosa de las claves:
 
-![Clave RSA creada](https://github.com/user-attachments/assets/47c99e74-6348-4642-b7b3-882390e686ec)
+![RSA creada](https://github.com/user-attachments/assets/0e00d3cb-3555-4836-a072-ca09bfdac81a)
 
 
 ## 4. Configuración del Pipeline
@@ -75,7 +76,8 @@ Verificamos la creación exitosa de las claves:
 
 Creamos un nuevo pipeline para automatizar el proceso de despliegue:
 
-![Nuevo Pipeline](https://github.com/user-attachments/assets/be65646a-288c-4d85-956d-9f5df79dc6c9)
+![Nuevo pipeline](https://github.com/user-attachments/assets/036e102f-3efc-4316-9573-2d34bbe26a43)
+
 
 
 ### 4.2 Configuración del Pipeline
