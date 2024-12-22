@@ -62,13 +62,15 @@ Para la comunicación segura entre el master y el agente, necesitamos configurar
 
 Generamos un nuevo par de claves RSA para la autenticación:
 
-![Generación RSA](https://github.com/user-attachments/assets/c6db3248-5f47-4a0e-a6a9-05357d996e2b)
+![RSA](https://github.com/user-attachments/assets/7e9aa792-528d-4e20-b4d5-cb127324b135)
+
 
 
 
 Verificamos la creación exitosa de las claves:
 
-![RSA creada](https://github.com/user-attachments/assets/0e00d3cb-3555-4836-a072-ca09bfdac81a)
+![RSA creado](https://github.com/user-attachments/assets/f918aeac-9910-4924-985e-d3b60b14bf01)
+
 
 
 ## 4. Configuración del Pipeline
