@@ -1,6 +1,6 @@
-# Configuración de Jenkins y Despliegue de Aplicación Web
+# Configuración de Jenkins y despliegue de aplicación web
 
-Este documento describe el proceso paso a paso para configurar un entorno Jenkins distribuido y realizar un despliegue exitoso de una aplicación web.
+Este documento describe el proceso paso a paso para configurar el entorno Jenkins distribuido en el primer repositorio y realizar un despliegue exitoso de la aplicación web del segundo repositorio.
 
 ## 1. Acceso Inicial a Jenkins
 
@@ -19,7 +19,7 @@ docker-compose exec jenkins-master cat /var/jenkins_home/secrets/initialAdminPas
 
 Una vez introducida la contraseña correctamente, accedemos a Jenkins:
 
-![Acceso a Jenkins](https://github.com/user-attachments/assets/56cf24ec-308f-4bb2-89ec-24c78cd8d48c)
+![Acceso a Jenkins](https://github.com/user-attachments/assets/02c8d000-ceb5-4a8e-b71d-72e68482e76c)
 
 
 ## 2. Configuración Inicial
